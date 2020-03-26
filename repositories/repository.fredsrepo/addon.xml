@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.fredsrepo" name="Sualfreds Repo" version="1.0.9" provider-name="sualfred">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Sualfreds Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/repositories/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/repositories/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/repositories/</datadir>
+		</dir>
+		<dir minversion="18.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/matrix/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/matrix/</datadir>
+		</dir>
+		<dir minversion="17.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/leia/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/leia/</datadir>
+		</dir>
+		<dir minversion="16.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/krypton/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/krypton/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Sualfreds Kodi repository</summary>
+		<description>Personal repository of Sualfred and home of the Embuary skin</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
